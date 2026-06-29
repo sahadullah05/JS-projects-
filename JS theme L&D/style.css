@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    transition:.4s;
+    background:#ffffff;
+    color:#222;
+}
+
+.container{
+    width:500px;
+    margin:100px auto;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+p{
+    margin-bottom:25px;
+    line-height:25px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    cursor:pointer;
+    border-radius:6px;
+    font-size:18px;
+    background:#333;
+    color:white;
+}
+
+/* Dark Theme */
+
+.dark{
+    background:#1d1d1d;
+    color:white;
+}
+
+.dark button{
+    background:white;
+    color:black;
+}
